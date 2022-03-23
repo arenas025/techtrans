@@ -1,0 +1,18 @@
+.footer{
+    height: 50px;
+    color: beige;
+    background-color: black;
+    margin-top: 0;
+    text-align: center;
+    &-fixed{
+        position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    }
+    
+    & p{
+        margin: 0;
+        padding-top: 20px;
+    }
+}

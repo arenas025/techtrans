@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+
+@import '../../variables';
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px 0 50px;
+    font-family: 'Raleway', sans-serif;
+    transition: 0.7s;
+    background-color: transparent;
+    align-items: center;
+    padding-top: 20px;
+    &-fixed{
+        z-index: 3;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 20px 0 50px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        transition: 0.7s;
+        background-color: white;
+        
+        }
+    &-img{
+        width: 130px;
+    }
+    &-info{
+        display: flex;
+        align-self: center;
+        & a{
+            text-decoration: none;
+            color: black;
+        }
+        & li{
+            padding-right: 50px;
+            padding-top: 5px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+        }
+    }
+}
+#contacto{
+    color:$yellow;
+    background-color: $brown;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    & li{
+        padding-top:5px;
+        padding-right:0
+    }
+}

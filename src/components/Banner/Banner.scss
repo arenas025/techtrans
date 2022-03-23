@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700&display=swap');
+@import '../../variables';
+.banner{
+    height: 800px;
+    display: flex;
+    align-items: center;
+    &-dark{
+        background-color: rgba(0,0,0,0.8);
+        filter:brightness(0.9);
+    }
+    &-info{
+        opacity: 0;
+        padding: 50px;
+        text-align: center;
+        border-radius: 30px;
+        font-size: 20px;
+        transition: 0.5s;
+        margin-left: -100px;
+        &__button{
+            background-color: #940b20;
+            color: $yellow;
+            border: 1px solid transparent;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 150px;
+            height: 30px;
+            
+            transition: 0.5s;
+            &:hover{
+                background-color: aliceblue;
+                color: black;
+                cursor: pointer;
+                
+            }
+        }
+    }
+    &-animation{ 
+        scale: 1.5;
+        font-size: 20px;
+        color:white;
+        margin-left: 150px;
+        border: solid 1px ;
+        justify-self: center;
+        transition: 1s;
+        padding-left: 20px;
+        border-radius: 30px;
+        width: 400px;
+    }
+    &-sub{
+        height: 500px;
+        width: 200px;
+        background-color: #940b20;
+    }
+}
