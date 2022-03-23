@@ -1,0 +1,19 @@
+.info{
+    box-sizing:border-box;
+    margin: 0%;
+    background-image: url('../../assets/artem-sapegin-b18TRXc8UPQ-unsplash.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 100vh;
+    &-content{
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 50px;
+        background-color: rgba(177, 162, 25, 0.507);
+        & img{
+            width: 350px;
+
+        }
+    }
+}
