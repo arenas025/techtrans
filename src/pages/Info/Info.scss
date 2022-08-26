@@ -1,3 +1,4 @@
+@import '../../variables';
 .info{
     box-sizing:border-box;
     margin: 0%;
@@ -5,15 +6,41 @@
     background-position: right;
     background-repeat: no-repeat;
     height: 100vh;
-    &-content{
-        text-align: center;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0 50px;
-        background-color: rgba(177, 162, 25, 0.507);
-        & img{
-            width: 350px;
-
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    &--main{
+        display: flex;
+        padding: 0 30px;
+        align-items: center;
+        &__left{
+            border-radius: 10px;
+            height: 80%;
+            background-color: rgba(0,0,0,0.8);
+            filter:brightness(0.9);
+            &__content{
+                text-align: center;
+                justify-content: start;
+                flex-direction: column;
+                padding: 0 50px;
+                &__title{
+                    text-align: left;
+                    color: white;
+                    font-size: 40px;
+                    margin-bottom: 10px;
+                }
+                &__bar{
+                    width: 100px;
+                    border: 2px solid $yellow;
+                    border-radius: 5px;
+                }
+                &__text{
+                    margin-top: 30px;
+                    text-align: left;
+                    color: white;
+                    line-height: 30px;
+                }
+            }
         }
     }
 }

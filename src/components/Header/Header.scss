@@ -10,22 +10,9 @@
     transition: 0.7s;
     background-color: transparent;
     align-items: center;
-    padding-top: 20px;
-    &-fixed{
-        z-index: 3;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 20px 0 50px;
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        transition: 0.7s;
-        background-color: white;
-        
-        }
+    background-color: white;
     &-img{
-        width: 130px;
+        width: 100px;
     }
     &-info{
         display: flex;
