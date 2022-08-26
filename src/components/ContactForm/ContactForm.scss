@@ -3,7 +3,6 @@
 .contactForm{
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;
     &-content{
         text-align: left;
         display: flex;
@@ -12,38 +11,41 @@
         gap: 20px;
         color: white;
         background-color: rgba(0, 0, 0, 0.712);
-        padding: 0 20px 10px 20px;
         border-radius: 20px;
-        & form{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-            & input{
-                width: 500px;
-                height: 30px;
-                border-radius: 20px;
-                padding: 5px;
-                &:focus-within{
-                    color:black;
-                    padding-left: 15px;
-                    font-size: 15px;
-                }
-            }
+        width: 100vw;
+        & iframe{
+            width: inherit;
         }
-        & button{
-            border: none;
-            border-radius: 100px;
-            color: black;
-            transition: 0.5s;
-            &:hover{
-                background-color: $yellow;
-                scale: (1.1);
-                cursor: pointer;
-            }
-        }
-        & p{
-            margin: 0;
-        }
-    }
-}
+    //     & form{
+    //         display: flex;
+    //         flex-direction: column;
+    //         align-items: center;
+    //         gap: 20px;
+    //         & input{
+    //             width: 500px;
+    //             height: 30px;
+    //             border-radius: 20px;
+    //             padding: 5px;
+    //             &:focus-within{
+    //                 color:black;
+    //                 padding-left: 15px;
+    //                 font-size: 15px;
+    //             }
+    //         }
+    //     }
+    //     & button{
+    //         border: none;
+    //         border-radius: 100px;
+    //         color: black;
+    //         transition: 0.5s;
+    //         &:hover{
+    //             background-color: $yellow;
+    //             scale: (1.1);
+    //             cursor: pointer;
+    //         }
+    //     }
+    //     & p{
+    //         margin: 0;
+    //     }
+    // }
+}}
